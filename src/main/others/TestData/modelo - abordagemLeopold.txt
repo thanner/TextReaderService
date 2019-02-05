@@ -1,0 +1,7 @@
+The process begins when the Resource 1 checks the files.
+If it is necessary, the Resource 1 initiates the search.
+It tracks the physical files. The process is split into 2 parallel branches:
+The Resource 1 hands the file to the associate.
+The Resource 1 distributes the judge's lawlist.
+Once all 2 branches were executed, the Resource 1 conducts the directions hearings.
+The process is finished.

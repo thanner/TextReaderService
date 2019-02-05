@@ -1,0 +1,8 @@
+The process starts when the Resource 1 checks the files.
+Next, if required, the Resource 1 initiates the search.
+In any case, the Resource 1 tracks the physical files.
+After that, 2 procedures are executed in an arbitrary order.
+The Resource 1 distributes the judge's lawlist.
+In the meantime, the Resource 1 hands the file to the associate.
+After each case, the Resource 1 conducts the directions hearings.
+Finally, the process is finished.
