@@ -21,9 +21,9 @@ public class ResourceLoader {
         }
     }
 
-    public static File getResourceFile(String resourcePath) throws  IOException {
+    public static File getResourceFile(String resourcePath) throws IOException {
         InputStream inputStream = getResource(resourcePath);
-        File tempFile = File.createTempFile("file",".txt");
+        File tempFile = File.createTempFile("file", ".txt");
         FileUtils.copyInputStreamToFile(inputStream, tempFile);
         return tempFile;
     }

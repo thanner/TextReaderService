@@ -188,9 +188,9 @@ public class BpmnWrapper {
 
     public List<TSequenceFlow> getSequenceFlowTarget(TFlowNode node) {
         List<TSequenceFlow> sequenceFlowList = new ArrayList<>();
-        for(QName qName :node.getOutgoing()){
+        for (QName qName : node.getOutgoing()) {
             TFlowElement tFlowElement = getFlowElementByQName(qName);
-            if(tFlowElement instanceof TSequenceFlow){
+            if (tFlowElement instanceof TSequenceFlow) {
                 sequenceFlowList.add((TSequenceFlow) tFlowElement);
             }
         }
