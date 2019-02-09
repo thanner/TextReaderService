@@ -29,20 +29,6 @@ public class DataGeneratorApp {
         for (File fileEntry : folder.listFiles()) {
             generateData(fileEntry, true);
         }
-
-        // File file = new File("src/main/others/TestData/input/153 - HR Process - HR department - eng.txt");
-        // generateData(file, false);
-
-        // File file2 = new File("src/main/others/TestData/input/2009-2 Conduct Directions Hearing.txt");
-        // generateData(file2, false);
-
-        /*
-        File file1 = new File("src/main/others/TestData/texto - minhaAbordagem.txt");
-        File file2 = new File("src/main/others/TestData/texto - abordagemLeopold.txt");
-        File file3 = new File("src/main/others/TestData/textoOriginal.txt");
-
-        generateData(file1, false);
-        */
     }
 
     private static void prepareLogger() {
